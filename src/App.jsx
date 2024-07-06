@@ -9,7 +9,7 @@ import notif from './screens/notif';
 import menu from './screens/menu';
 import bayar from './screens/bayar';
 import uang from './screens/uang';
-import pdn from './screens/pdn';
+import luluk from './screens/luluk';
 import { NavigationContainer } from '@react-navigation/native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
@@ -48,7 +48,7 @@ const App = () => {
       <Stack.Screen name='Kategori' component={menu} />
       <Stack.Screen name='Pembayaran' component={bayar} />
       <Stack.Screen name='Uang Saku' component={uang} />
-      <Stack.Screen name='Panduan' component={pdn} />
+      <Stack.Screen name='Panduan' component={luluk} />
     </Stack.Navigator>
    </NavigationContainer>
 );
