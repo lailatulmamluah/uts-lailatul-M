@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Perpustakaan = () => {
+const notif = () => {
   return (
     <View>
-      <Text>Perpustakaan</Text>
+      <Text></Text>
     </View>
   )
 }
 
-export default Perpustakaan
+export default notif
 
 const styles = StyleSheet.create({})
